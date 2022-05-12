@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-05 09:35:02 PM"/>
+        <attribute name="created" value="REVMTDtERVNLVE9QLUUzQVVBVDI7MjAyMi0wNS0wNTswOToyOTo0NiBQTTsyNjMx"/>
+        <attribute name="edited" value="REVMTDtERVNLVE9QLUUzQVVBVDI7MjAyMi0wNS0wNTswOTozNTowMiBQTTsxOzI3Mjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="S" type="Real" array="False" size=""/>
+            <declare name="R" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nhap ban kinh hinh tron&quot;" newline="True"/>
+            <input variable="R"/>
+            <assign variable="S" expression="3.14*R^2"/>
+            <output expression="&quot;Dien tich hinh tron la&quot;&amp;S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

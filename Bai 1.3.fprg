@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-05 10:11:53 PM"/>
+        <attribute name="created" value="REVMTDtERVNLVE9QLUUzQVVBVDI7MjAyMi0wNS0wNTsxMDowNTo1MCBQTTsyNjEy"/>
+        <attribute name="edited" value="REVMTDtERVNLVE9QLUUzQVVBVDI7MjAyMi0wNS0wNTsxMDoxMTo1MyBQTTsxOzI3MjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="S" type="Real" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="h" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nhap canh cua tam giac&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Nhap chieu cao tam giac&quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="S" expression="(a*h)/2"/>
+            <output expression="&quot;Dien tich cua tam giac la&quot;&amp;S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
